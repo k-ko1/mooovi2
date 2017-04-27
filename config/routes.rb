@@ -1,4 +1,8 @@
 TechReviewSite::Application.routes.draw do
   root 'products#index'
-  resources 'products'
+  resources :products do
+    collection do
+      get 'search'
+    end
+  end
 end
