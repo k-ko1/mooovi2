@@ -5,7 +5,6 @@ class ReviewsController < RankingController
   end
 
   def create
-    binding.pry
     Review.create(review_params)
     redirect_to products_path
   end
