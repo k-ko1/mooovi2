@@ -44,3 +44,4 @@ end
 # pry
 gem 'pry-rails'
 gem 'mechanize', '~> 2.7.5'
+gem 'devise', '~>4.2.1'
