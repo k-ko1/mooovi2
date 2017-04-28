@@ -45,3 +45,4 @@ end
 gem 'pry-rails'
 gem 'mechanize', '~> 2.7.5'
 gem 'devise', '~>4.2.1'
+gem 'paperclip', '~>5.1.0'
